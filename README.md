@@ -18,7 +18,7 @@ Projeto desenvolvido referente ao desafio
 
 - Semantic HTML5 markup
 - [Nextjs](https://nextjs.org/) - React Framework
-- [Vue.js](https://jestjs.io/) - Framework de Testes
+- [Jest](https://jestjs.io/) - Framework de Testes
 - [Tailwind](https://tailwindcss.com/) - Utility-first CSS framework
 
 ## Autor
