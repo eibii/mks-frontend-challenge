@@ -23,7 +23,7 @@ Projeto desenvolvido referente ao desafio
 
 ## Autor
 
-- [Meet me](https://ercdev.com.br/)
+- [Me encontre](https://ercdev.com.br/)
 
 # Diretrizes do desafio
 
