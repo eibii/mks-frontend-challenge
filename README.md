@@ -1,6 +1,6 @@
 # Desafio - MKS Sistemas
 
-Projeto desenvolvido utilizando o método TDD referente ao desafio proposto logo abaixo
+Projeto desenvolvido utilizando o método TDD, referente ao desafio proposto logo abaixo
 
 ## Visão geral
 
@@ -10,7 +10,7 @@ Projeto desenvolvido utilizando o método TDD referente ao desafio proposto logo
 
 ### Links
 
-- [Em produção URL:](https://desafio-mks.ercdev.com.br/)
+- [Em produção URL](https://desafio-mks.ercdev.com.br/)
 
 ## Meu processo
 

@@ -23,7 +23,7 @@ export default function Home() {
 
   const products: Product[] = useAppSelector((state) => state.product.list);
   return (
-    <div className="py-10">
+    <div className="py-10 h-full">
       {skeleton && <ProductListingSkeleton />}
       {!skeleton && <ProductListing data={products} />}
     </div>
