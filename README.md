@@ -10,7 +10,7 @@ Projeto desenvolvido utilizando o método TDD, referente ao desafio proposto log
 
 ### Links
 
-- [Em produção URL](https://desafio-mks.ercdev.com.br/)
+- [Em produção URL](https://lucent-cranachan-e98f3a.netlify.app/)
 
 ## Meu processo
 
