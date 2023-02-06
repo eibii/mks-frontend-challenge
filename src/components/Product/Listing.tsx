@@ -8,30 +8,17 @@ interface Props {
 
 export default function ProductListing({ data }: Props) {
   return (
-    <div className="grid grid-cols-4 gap-8">
-      {map(
-        data,
-        (
-          { id, name, photo, brand, description, price }: Product,
-          i: number
-        ) => {
-          return (
-            <div
-              className="col-span-4 sm:col-span-2 lg:col-span-1 bg-white rounded-xl shadow-md overflow-hidden"
-              key={i}
-            >
-              <ProductCard
-                id={id}
-                name={name}
-                photo={photo}
-                brand={brand}
-                description={description}
-                price={price}
-              />
-            </div>
-          );
-        }
-      )}
+    <div data-testid="product-listing" className="grid grid-cols-4 gap-8">
+      {map(data, (product: Product, i: number) => {
+        return (
+          <div
+            className="col-span-4 sm:col-span-2 lg:col-span-1 bg-white rounded-xl shadow-md overflow-hidden"
+            key={i}
+          >
+            <ProductCard product={product} />
+          </div>
+        );
+      })}
     </div>
   );
 }

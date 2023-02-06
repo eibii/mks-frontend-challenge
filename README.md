@@ -1,6 +1,6 @@
 # Desafio - MKS Sistemas
 
-Projeto desenvolvido referente ao desafio
+Projeto desenvolvido utilizando o método TDD referente ao desafio proposto logo abaixo
 
 ## Visão geral
 

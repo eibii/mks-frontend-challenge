@@ -100,6 +100,11 @@ const bag = createSlice({
       state.total = total;
       state.amount = amount;
     },
+    checkout(state) {
+      state.products = [];
+      state.total = 0;
+      state.amount = 0;
+    },
   },
 });
 
@@ -110,6 +115,7 @@ export const {
   amountIncrement,
   amountDecrement,
   restoreCart,
+  checkout,
 } = bag.actions;
 export default bag.reducer;
 

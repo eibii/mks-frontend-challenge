@@ -1,8 +1,7 @@
 import { useAppSelector } from "@/app/hooks";
-import { MouseEventHandler } from "react";
 
 interface Props {
-  onActiveSidebar: MouseEventHandler;
+  onActiveSidebar: Function;
 }
 
 export function convertToReal(value: number) {
@@ -17,7 +16,7 @@ export default function HeaderTop({ onActiveSidebar }: Props) {
   const total = useAppSelector((state) => state.bag.total);
 
   return (
-    <header className="bg-primary py-4">
+    <header data-testid="header-top" className="bg-primary py-4">
       <div className="custom-container flex">
         <div className="flex-1 flex items-center ">
           <div className="flex font-Montserrat text-white gap-1">
@@ -33,15 +32,21 @@ export default function HeaderTop({ onActiveSidebar }: Props) {
           <button
             className="bg-white px-5 py-1 rounded-lg shadow-lg text-lg flex gap-3"
             type="button"
-            onClick={onActiveSidebar}
+            onClick={(e) => {
+              e.preventDefault();
+              onActiveSidebar();
+            }}
           >
             <div className="self-center flex flex-col gap-0">
               <i className="bi bi-basket2 self-center"></i>
               <div className="leading-3 text-xs self-center">Total:</div>
             </div>
             <div className="self-center flex flex-col gap-0">
-              <div>{amount}</div>
-              <div className="leading-3 text-xs self-center">
+              <div data-testid="value-amount">{amount}</div>
+              <div
+                data-testid="value-total"
+                className="leading-3 text-xs self-center"
+              >
                 {convertToReal(total)}
               </div>
             </div>

@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="author" content="ERC Developer Ltda" />
-        <title>TESTE - {process.env.appName}</title>
+        <title>DESAFIO - {process.env.appName}</title>
       </Head>
       <RootLayout>
         <Component {...pageProps} />

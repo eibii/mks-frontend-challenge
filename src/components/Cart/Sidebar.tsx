@@ -45,7 +45,7 @@ export default function CartSidebar({ show, onCloseSidebar }: Props) {
                   {map(products, (product: ProductBag, i: number) => {
                     return (
                       <div className=" bg-white p-1 rounded-lg" key={i}>
-                        <CartCard {...product} />
+                        <CartCard product={product} />
                       </div>
                     );
                   })}

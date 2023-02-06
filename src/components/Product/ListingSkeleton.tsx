@@ -1,7 +1,10 @@
 import { map, times, noop } from "lodash";
 export default function ProductListingSkeleton() {
   return (
-    <div className="grid grid-cols-4 gap-8">
+    <div
+      data-testid="product-listing-skeleton"
+      className="grid grid-cols-4 gap-8"
+    >
       {map(times(4, noop), (v, i) => {
         return (
           <div
