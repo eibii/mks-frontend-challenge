@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Macbook Air",
+      "brand": "Apple",
+      "description": "Processador intel Core i5 de dois núcleos e 1,8 GHz (Turbo Boost de até 2,9 GHz) com cache L3 compartilhado de 3 MB.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/macbookair.webp",
+      "price": "8200.00",
+      "createdAt": "2023-01-23T18:17:04.771Z",
+      "updatedAt": "2023-01-23T18:17:04.771Z"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 12 64 GB",
+      "brand": "Apple",
+      "description": "Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/iphone12x64.webp",
+      "price": "6500.00",
+      "createdAt": "2023-01-23T18:17:04.771Z",
+      "updatedAt": "2023-01-23T18:17:04.771Z"
+    },
+    {
+      "id": 1,
+      "name": "Iphone 11 128 GB",
+      "brand": "Apple",
+      "description": "Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/iphone11x128.webp",
+      "price": "5000.00",
+      "createdAt": "2023-01-23T18:17:04.771Z",
+      "updatedAt": "2023-01-23T18:17:04.771Z"
+    },
+    {
+      "id": 6,
+      "name": "iPad",
+      "brand": "Apple",
+      "description": "iPad é uma linha de tablets projetada, desenvolvida e comercializada pela Apple, que funciona com o sistema operacional móvel iOS e iPadOS.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/ipadair.webp",
+      "price": "4200.00",
+      "createdAt": "2023-01-23T18:17:04.771Z",
+      "updatedAt": "2023-01-23T18:17:04.771Z"
+    },
+    {
+      "id": 8,
+      "name": "Headset Cloud Stinger",
+      "brand": "HyperX",
+      "description": "O HyperX Cloud Stinger™ é o headset ideal para jogadores que procuram leveza e conforto, qualidade de som superior e maior praticidade.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperxcloudstinger.webp",
+      "price": "600.00",
+      "createdAt": "2023-01-23T18:17:04.771Z",
+      "updatedAt": "2023-01-23T18:17:04.771Z"
+    }
+  ],
+  "count": 8
+}
